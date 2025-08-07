@@ -13,7 +13,7 @@ function NavigationMenuItem(props: MenuProps) {
           backgroundColor: "#A3B18A",
           color: "white",
           borderRadius: "5px",
-        },
+        }
       }}
       onClick={props.linkAddress}
     >
