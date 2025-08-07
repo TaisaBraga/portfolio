@@ -1,5 +1,4 @@
-import React from "react";
-import PresentationPage from "../Molecules/Presentation/PresentationPage";
+import PresentationPage from "../Organisms/Presentation/PresentationPage";
 
 function Presentation() {
   return (

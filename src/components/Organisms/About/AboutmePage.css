@@ -1,0 +1,20 @@
+#aboutmePage{
+  
+}
+
+#aboutmePage>img{
+    width: 15em;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    text-align: justify;
+    padding: 1em 1em 0 1em;
+    width: 50em;
+}
+.presentation-text{
+    margin-top: 1em;
+}

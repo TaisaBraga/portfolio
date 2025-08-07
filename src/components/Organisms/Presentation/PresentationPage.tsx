@@ -3,6 +3,7 @@ import github from "../../../assets/github-icon.png";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import AddIcCallOutlinedIcon from "@mui/icons-material/AddIcCallOutlined";
 import "./PresentationPage.css";
+import PageName from "../../Atoms/PageName";
 
 function PresentationPage() {
   const openWhatsAppPage = () => {
@@ -13,7 +14,7 @@ function PresentationPage() {
   return (
     <div id="presentation">
       <div>
-        <div id="grettings">👋 Grettings!</div>
+        <PageName identifyName="👋 Grettings!" />
         <div>
           <h1>Taisa Braga</h1>
           <p>Front-end Developer</p>
