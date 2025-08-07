@@ -1,0 +1,9 @@
+.container-nav{
+    background-color: #D1D8BE;
+    border-radius: 13px;
+    display: flex;
+    margin: 1.2em;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    padding: 0.6em;
+}
