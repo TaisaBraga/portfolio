@@ -1,11 +1,11 @@
-import React from 'react'
-import NavigationBar from '../Templates/NavegationBar/NavigationBar'
+import NavigationBar from '../Templates/NavigationBar'
+import Presentation from '../Templates/Presentation'
 
 export const PrincipalPage = () => {
   return (
     <div>
         <NavigationBar />
-        <div>Presentation page</div>
+        <Presentation />
         <div>about me</div>
         <div>projects</div>
         <div>skills</div>

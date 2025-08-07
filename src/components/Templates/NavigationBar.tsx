@@ -1,5 +1,4 @@
-import React from 'react'
-import NavigationLinks from '../../Organisms/NavigationLinks'
+import NavigationLinks from "../Molecules/Navigation/NavigationLinks"
 
 function NavigationBar() {
   return (

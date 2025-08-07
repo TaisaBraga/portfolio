@@ -1,5 +1,5 @@
 import "./NavigationLinks.css";
-import NavigationMenuItem from "../Molecules/NavigationMenuItem";
+import NavigationMenuItem from "../../Atoms/NavigationMenuItem";
 
 function NavigationLinks() {
   return (
