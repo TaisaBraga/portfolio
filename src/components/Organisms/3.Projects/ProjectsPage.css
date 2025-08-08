@@ -1,0 +1,9 @@
+#Projects{
+    padding: 1em;
+}
+
+.cardProjects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

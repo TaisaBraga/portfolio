@@ -1,8 +1,8 @@
-interface pageNameProps {
+interface IPageNameProps {
   identifyName: string;
 }
 
-function PageName({ identifyName }: pageNameProps) {
+function PageName({ identifyName }: IPageNameProps) {
   return (
     <div
       style={{

@@ -1,0 +1,39 @@
+#container-card{
+    border: 1px solid #819A91;
+    border-radius: 4px;
+    box-shadow: 3px 3px #6c7a7552;
+    cursor: pointer;
+    margin: 2em;
+    padding: 1em;
+    height: 16em;
+    width: 14em;
+}
+
+#container-card>p{
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.cardmap{
+    display: flex;
+    gap: 0.5em
+}
+
+.cardTec{
+    background-color: #819A91;
+    border: 1px solid #819A91;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.3em;
+    margin: 1em 0;
+    max-width: 5em;
+}
+
+#container-card>img{
+    height: 6em;
+    width: 13em;
+    display: flex;
+    place-self: center;
+    margin: 1em 0;
+}

@@ -1,11 +1,11 @@
 import { MenuItem } from "@mui/material";
 
-interface MenuProps{
+interface IMenuProps{
     name: string,
     linkAddress: () => void
 }
 
-function NavigationMenuItem(props: MenuProps) {
+function NavigationMenuItem(props: IMenuProps) {
   return (
     <MenuItem
       sx={{
