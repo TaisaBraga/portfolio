@@ -6,7 +6,7 @@ function AboutmePage() {
   return (
     <div id="aboutmePage">
       <img src={github} alt="github-icon" />
-      <div>
+      <div className="aboutmeDescription">
         <PageName identifyName="🤓 About me" />
         <h1>Taisa Braga Bento</h1>
         <div className="presentation-text">
@@ -19,7 +19,7 @@ function AboutmePage() {
             JavaScript, React.js, and TypeScript, and I also have experience
             with Azure Logic Apps.
           </p>
-          <p>
+          <p style={{margin: "1.5em 0 0.5em" }}>
             📝 Main interests: Front-end Development (React.js, Next.js,
             TypeScript)
           </p>

@@ -1,20 +1,28 @@
 #aboutmePage{
-  
+  display: flex;
 }
 
 #aboutmePage>img{
-    width: 15em;
+    padding: 5em;
+    width: 25em;
 }
 
-h1{
-    font-size: 40px;
-}
-
-p{
+.aboutmeDescription{
+    padding: 5em 5em 3em 0;
     text-align: justify;
-    padding: 1em 1em 0 1em;
-    width: 50em;
+    line-height: 1.6em;
 }
-.presentation-text{
+
+.aboutmeDescription>h1{
+    font-size: 40px;
     margin-top: 1em;
+}
+
+.aboutmeDescription p{
+    text-indent: 1em;
+}
+
+.presentation-text{
+    margin-top: 2em;
+    max-width: 45em;
 }
