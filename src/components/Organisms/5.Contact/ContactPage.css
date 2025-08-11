@@ -1,0 +1,27 @@
+#ContactPage{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em 0.5em;
+}
+
+#ContactPage>h1{
+    margin-bottom: 1em;
+    font-size: 2.5em;
+}
+
+.contact-info{
+    display: flex;
+    gap: 3em;
+}
+
+.contact-email{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-email>p{
+    margin-right: 0.5em;
+}

@@ -1,15 +1,11 @@
 import linkedIn from "../../../assets/linkedin-icon.png";
 import github from "../../../assets/github-icon.png";
-import whatsapp from "../../../assets/whatsapp.svg";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import "./PresentationPage.css";
 import PageName from "../../Atoms/PageName";
+import WhatsAppButton from "../../Atoms/WhatsAppButton";
 
 function PresentationPage() {
-  const openWhatsAppPage = () => {
-    const number = "+5534991865698";
-    window.open(`https://wa.me/${number}`, "_blank");
-  };
 
   return (
     <div id="presentation">
@@ -43,11 +39,7 @@ function PresentationPage() {
             sx={{ cursor: "pointer" }}
           />
         </div>
-
-        <button onClick={openWhatsAppPage}>
-          <img src={whatsapp} alt="whatsapp-icon" />
-          <p>Let's chat on WhatsApp</p>
-        </button>
+        <WhatsAppButton />
       </div>
     </div>
   );
