@@ -1,7 +1,7 @@
 import linkedIn from "../../../assets/linkedin-icon.png";
 import github from "../../../assets/github-icon.png";
+import whatsapp from "../../../assets/whatsapp.svg";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
-import AddIcCallOutlinedIcon from "@mui/icons-material/AddIcCallOutlined";
 import "./PresentationPage.css";
 import PageName from "../../Atoms/PageName";
 
@@ -45,7 +45,7 @@ function PresentationPage() {
         </div>
 
         <button onClick={openWhatsAppPage}>
-          <AddIcCallOutlinedIcon fontSize="small" />
+          <img src={whatsapp} alt="whatsapp-icon" />
           <p>Let's chat on WhatsApp</p>
         </button>
       </div>

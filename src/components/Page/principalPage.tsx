@@ -3,6 +3,7 @@ import NavigationBar from "../Templates/NavigationBar";
 import Presentation from "../Templates/Presentation";
 import Projects from "../Templates/Projects";
 import Aboutme from "../Templates/Aboutme";
+import Skills from "../Templates/Skills";
 
 export const PrincipalPage = () => {
   return (
@@ -14,7 +15,8 @@ export const PrincipalPage = () => {
       <Divider />
       <Projects />
       <Divider />
-      <div>skills</div>
+      <Skills />
+      <Divider />
       <div>contact</div>
       <div>footer</div>
     </div>
