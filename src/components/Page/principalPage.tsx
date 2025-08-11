@@ -5,6 +5,7 @@ import Projects from "../Templates/Projects";
 import Aboutme from "../Templates/Aboutme";
 import Skills from "../Templates/Skills";
 import Contact from "../Templates/Contact";
+import Footer from "../Templates/Footer";
 
 export const PrincipalPage = () => {
   return (
@@ -19,7 +20,8 @@ export const PrincipalPage = () => {
       <Skills />
       <Divider />
       <Contact />
-      <div>footer</div>
+      <Divider />
+      <Footer />
     </div>
   );
 };

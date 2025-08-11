@@ -1,0 +1,22 @@
+#Footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+}
+
+#Footer>p{
+    font-size: 0.7em;
+}
+
+#Footer>div>a>img{
+    height: 1.8em;
+    width: 1.8em;
+}
+
+.iconButtons{
+    display: flex;
+    cursor: pointer;
+    margin: 0.5em 0;
+    gap: 1em;
+}
