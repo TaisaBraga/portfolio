@@ -1,12 +1,12 @@
-import linkedIn from "../../../assets/linkedin-icon.png";
-import github from "../../../assets/github-icon.png";
+import linkedIn from "../../../assets/linkedin.svg";
+import github from "../../../assets/github.svg";
+import photoDrawing from "../../../assets/photoDrawing.png";
 import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import "./PresentationPage.css";
 import PageName from "../../Atoms/PageName";
 import WhatsAppButton from "../../Atoms/WhatsAppButton";
 
 function PresentationPage() {
-
   return (
     <div id="presentation">
       <div>
@@ -15,7 +15,7 @@ function PresentationPage() {
           <h1>Taisa Braga</h1>
           <p>Front-end Developer</p>
         </div>
-        <div id="iconButtons">
+        <div className="iconButtons">
           <a href="https://www.linkedin.com/in/taisabraga/" target="_blank">
             <img src={linkedIn} alt="linkedIn-icon" />
           </a>
@@ -24,7 +24,11 @@ function PresentationPage() {
           </a>
         </div>
       </div>
-      <img src={github} alt="github-icon" />
+      <img
+        className="photoDraw"
+        src={photoDrawing}
+        alt="photoDrawing"
+      />
       <div id="presentationLinks">
         <div id="resumelink">
           <a

@@ -3,7 +3,7 @@ import whatsapp from "../../assets/whatsapp.svg";
 
 function WhatsAppButton() {
   const openWhatsAppPage = () => {
-    const number = "+5534991865698";
+    const number = "+351911549286";
     window.open(`https://wa.me/${number}`, "_blank");
   };
   return (

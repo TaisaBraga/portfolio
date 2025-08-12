@@ -1,11 +1,11 @@
-import github from "../../../assets/github-icon.png";
+import aboutme from "../../../assets/aboutme.jpg";
 import PageName from "../../Atoms/PageName";
 import "./AboutmePage.css";
 
 function AboutmePage() {
   return (
     <div id="aboutmePage">
-      <img src={github} alt="github-icon" />
+      <img src={aboutme} alt="aboutme-image"/>
       <div className="aboutmeDescription">
         <PageName identifyName="🤓 About me" />
         <h1>Taisa Braga Bento</h1>
