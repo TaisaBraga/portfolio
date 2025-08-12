@@ -11,16 +11,18 @@ export const PrincipalPage = () => {
   return (
     <div>
       <NavigationBar />
-      <Presentation />
-      <Divider />
-      <Aboutme />
-      <Divider />
-      <Projects />
-      <Divider />
-      <Skills />
-      <Divider />
-      <Contact />
-      <Divider />
+      <div style={{ paddingTop: "8em" }}>
+        <Presentation />
+        <Divider />
+        <Aboutme />
+        <Divider />
+        <Projects />
+        <Divider />
+        <Skills />
+        <Divider />
+        <Contact />
+        <Divider />
+      </div>
       <Footer />
     </div>
   );

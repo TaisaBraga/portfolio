@@ -5,5 +5,9 @@
     margin-bottom: 1.2em;
     font-family: 'Raleway', sans-serif;
     justify-content: center;
+    justify-self: center;
     padding: 0.6em;
+    position: fixed;
+    z-index: 1;
+    width: 80%;
 }

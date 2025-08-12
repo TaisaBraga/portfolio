@@ -1,11 +1,11 @@
-import NavigationLinks from "../Molecules/Navigation/NavigationLinks"
+import NavigationLinks from "../Molecules/Navigation/NavigationLinks";
 
 function NavigationBar() {
   return (
-    <>
-    <NavigationLinks />
-    </>
-  )
+    <div>
+      <NavigationLinks />
+    </div>
+  );
 }
 
-export default NavigationBar
+export default NavigationBar;
