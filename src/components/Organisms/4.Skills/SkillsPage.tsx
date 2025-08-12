@@ -8,6 +8,7 @@ import tailwind from "../../../assets/tailwind.svg";
 import vue from "../../../assets/vue.svg";
 import next from "../../../assets/Next.svg";
 import javascript from "../../../assets/JavaScript.svg";
+import typescript from "../../../assets/typescript.svg";
 
 function SkillsPage() {
   return (
@@ -19,6 +20,7 @@ function SkillsPage() {
         <img src={html} alt="html-icon" />
         <img src={css} alt="css-icon" />
         <img src={javascript} alt="javascript-icon" />
+        <img src={typescript} alt="typescript-icon" />
         <img src={react} alt="reat-icon" />
         <img src={git} alt="git-icon" />
       </div>
