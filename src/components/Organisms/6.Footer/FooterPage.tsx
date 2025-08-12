@@ -1,6 +1,6 @@
 import "./FooterPage.css";
-import linkedIn from "../../../assets/linkedin-icon.png";
-import github from "../../../assets/github-icon.png";
+import linkedIn from "../../../assets/linkedin.svg";
+import github from "../../../assets/github.svg";
 
 function FooterPage() {
   return (
