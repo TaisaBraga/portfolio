@@ -2,6 +2,10 @@
     padding: 1em;
 }
 
+#Projects>h1{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
 .cardProjects{
     display: flex;
     flex-wrap: wrap;
