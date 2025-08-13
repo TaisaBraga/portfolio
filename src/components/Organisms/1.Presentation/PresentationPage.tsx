@@ -1,3 +1,4 @@
+import i18n from "i18next";
 import linkedIn from "../../../assets/linkedin.svg";
 import github from "../../../assets/github.svg";
 import photoDrawing from "../../../assets/photoDrawing.png";
@@ -27,20 +28,27 @@ function PresentationPage() {
           </a>
         </div>
       </div>
-      <img
-        className="photoDraw"
-        src={photoDrawing}
-        alt="photoDrawing"
-      />
+      <img className="photoDraw" src={photoDrawing} alt="photoDrawing" />
       <div id="presentationLinks">
         <div id="resumelink">
-          <a
-            href="/resume-Taisa-Braga.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("download")}
-          </a>
+          {i18n.language == "PT" ? (
+            <a
+              href="/curriculo-Taisa-Braga.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("download")}
+            </a>
+          ) : (
+            <a
+              href="/resume-Taisa-Braga.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {t("download")}
+            </a>
+          )}
+
           <FileDownloadOutlinedIcon
             fontSize="small"
             sx={{ cursor: "pointer" }}

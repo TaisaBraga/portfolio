@@ -24,6 +24,34 @@
     gap: 0.8em;
 }
 
-.lang>p{
+.enLang{
+    background: none;
+    border: none;
+    align-items: center;
     cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em
+}
+
+.enLang>img{
+    border-radius: 100%;
+    height: 1.3em;
+    width: 2em;
+}
+
+.ptLang{
+    background: none;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em
+}
+
+.ptLang>img{
+    border-radius: 100%;
+    height: 1.3em;
+    width: 2em;
 }

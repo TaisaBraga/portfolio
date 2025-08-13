@@ -2,16 +2,17 @@ import i18n from "i18next";
 import "./NavigationLinks.css";
 import NavigationMenuItem from "../../Atoms/NavigationMenuItem";
 import { useTranslation } from "react-i18next";
+import usFlag from "../../../assets/US-Flag.svg";
+import brFlag from "../../../assets/BR-Flag.svg";
 
 function NavigationLinks() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
   };
-
 
   return (
     <div className="container-nav">
@@ -48,8 +49,14 @@ function NavigationLinks() {
         />
       </div>
       <div className="lang">
-        <p onClick={() => i18n.changeLanguage("EN")}>EN</p>
-        <p onClick={() => i18n.changeLanguage("PT")}>PT</p>
+        <button className="enLang" onClick={() => i18n.changeLanguage("EN")}>
+          <img src={usFlag} alt="USA Flag" />
+          <p>EN</p>
+        </button>
+        <button className="ptLang" onClick={() => i18n.changeLanguage("PT")}>
+          <img src={brFlag} alt="BR Flag" />
+          <p>PT</p>
+        </button>
       </div>
     </div>
   );

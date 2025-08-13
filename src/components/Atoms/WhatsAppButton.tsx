@@ -1,19 +1,19 @@
 import "./WhatsAppButton.css"
-import whatsapp from "../../assets/whatsapp.svg";
+import messages from "../../assets/messages.svg";
 import { useTranslation } from "react-i18next";
 
 function WhatsAppButton() {
     const { t } = useTranslation();
   
-  const openWhatsAppPage = () => {
-    const number = "+351911549286";
-    window.open(`https://wa.me/${number}`, "_blank");
+  const openLinkedInPage = () => {
+    window.open("https://www.linkedin.com/in/taisabraga/", "_blank");
   };
+  
   return (
     <div id="ContactPage">
-      <button onClick={openWhatsAppPage}>
-        <img src={whatsapp} alt="whatsapp-icon" />
-        <p>{t("aboutButton")}</p>
+      <button onClick={openLinkedInPage}>
+        <img src={messages} alt="messages-icon" />
+        <p>{t("letsChat")}</p>
       </button>
     </div>
   );
