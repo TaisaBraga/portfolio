@@ -6,8 +6,9 @@
 #aboutmePage>img{
     border-radius: 100%;
     padding: 5em;
-    width: 20em;
-    height: 20em;
+    margin-right: 2em;
+    width: 28em;
+    height: 28em;
     object-fit: cover; 
 
 }
@@ -16,15 +17,12 @@
     padding: 5em 5em 3em 0;
     text-align: justify;
     line-height: 1.6em;
+    margin-left: 2em;
 }
 
 .aboutmeDescription>h1{
     font-size: 40px;
     margin-top: 1em;
-}
-
-.aboutmeDescription p{
-    text-indent: 1em;
 }
 
 .presentation-text{

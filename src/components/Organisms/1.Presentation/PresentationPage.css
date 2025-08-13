@@ -2,7 +2,6 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 0.8em;
 }
 
 #presentation h1{
@@ -36,12 +35,13 @@
 .photoDraw{
     border-radius: 100%;
     width: 26em;
-    height: 26em;
+    height: 30em;
     padding: 2em 0;
     cursor: pointer;
     transition: 0.6s ease-in-out;
     overflow-clip-margin: content-box;
     overflow: clip;
+    object-fit: cover; 
 }
 
 .photoDraw:hover{

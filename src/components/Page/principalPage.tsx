@@ -11,7 +11,7 @@ export const PrincipalPage = () => {
   return (
     <div>
       <NavigationBar />
-      <div style={{ paddingTop: "8em" }}>
+      <div style={{ padding: "8em 3em 0 3em" }}>
         <Presentation />
         <Divider />
         <Aboutme />

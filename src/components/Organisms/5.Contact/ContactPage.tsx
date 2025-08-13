@@ -36,7 +36,7 @@ function ContactPage() {
           />
         </div>
       </div>
-        {isCopied ? <p>✅ Text copied to clipboard!</p> : null}
+        {isCopied ? <p style={{fontSize: "12px"}}>✅ Text copied to clipboard!</p> : null}
     </div>
   );
 }
