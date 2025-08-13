@@ -5,15 +5,18 @@ import FileDownloadOutlinedIcon from "@mui/icons-material/FileDownloadOutlined";
 import "./PresentationPage.css";
 import PageName from "../../Atoms/PageName";
 import WhatsAppButton from "../../Atoms/WhatsAppButton";
+import { useTranslation } from "react-i18next";
 
 function PresentationPage() {
+  const { t } = useTranslation();
+
   return (
     <div id="presentation">
       <div>
-        <PageName identifyName="👋 Grettings!" />
+        <PageName identifyName={t("welcomeMessage")} />
         <div>
           <h1>Taisa Braga</h1>
-          <p>Front-end Developer</p>
+          <p>{t("jobName")}</p>
         </div>
         <div className="iconButtons">
           <a href="https://www.linkedin.com/in/taisabraga/" target="_blank">
@@ -36,7 +39,7 @@ function PresentationPage() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download CV
+            {t("download")}
           </a>
           <FileDownloadOutlinedIcon
             fontSize="small"

@@ -1,13 +1,29 @@
 .container-nav{
     background-color: #D1D8BE;
     border-radius: 13px;
-    display: flex;
     margin-bottom: 1.2em;
-    font-family: 'Raleway', sans-serif;
+    align-items: center;
     justify-content: center;
-    justify-self: center;
+    justify-self: anchor-center;
+    display: flex;
     padding: 0.6em;
     position: fixed;
     z-index: 1;
     width: 80%;
+}
+
+.links {
+    display: flex;
+}
+
+.lang{
+    position: absolute;
+    right: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.lang>p{
+    cursor: pointer;
 }

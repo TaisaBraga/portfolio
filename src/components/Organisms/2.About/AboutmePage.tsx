@@ -1,33 +1,21 @@
+import { useTranslation } from "react-i18next";
 import aboutme from "../../../assets/aboutme.jpg";
 import PageName from "../../Atoms/PageName";
 import "./AboutmePage.css";
 
 function AboutmePage() {
+  const { t } = useTranslation();
+
   return (
     <div id="aboutmePage">
-      <img src={aboutme} alt="aboutme-image"/>
+      <img src={aboutme} alt="aboutme-image" />
       <div className="aboutmeDescription">
-        <PageName identifyName="🤓 About me" />
+        <PageName identifyName={t("aboutMe")} />
         <h1>Taisa Braga Bento</h1>
         <div className="presentation-text">
-          <p>
-            I'm a Web Developer with over 3 years of experience building
-            intuitive and high-performance user interfaces. I hold a Bachelor's
-            degree in Information Systems and a Postgraduate degree in Software
-            Engineering. I'm constantly updating my skills through advanced
-            courses. My main expertise is in Front-end development using
-            JavaScript, React.js, and TypeScript, and I also have experience
-            with Azure Logic Apps.
-          </p>
-          <p style={{margin: "1.5em 0 0.5em" }}>
-            📝 Main interests: Front-end Development (React.js, Next.js,
-            TypeScript)
-          </p>
-          <p>
-            🚀 Goal: To create digital products that have a positive impact on
-            people's lives, constantly improve my skills, and learn new
-            technologies.
-          </p>
+          <p>{t("description")}</p>
+          <p style={{ margin: "1.5em 0 0.5em" }}>📝 {t("interests")}</p>
+          <p>🚀{t("goal")}</p>
         </div>
       </div>
     </div>

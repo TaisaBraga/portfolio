@@ -9,13 +9,16 @@ import vue from "../../../assets/vue.svg";
 import next from "../../../assets/Next.svg";
 import javascript from "../../../assets/JavaScript.svg";
 import typescript from "../../../assets/typescript.svg";
+import { useTranslation } from "react-i18next";
 
 function SkillsPage() {
+  const {t} = useTranslation()
+
   return (
     <div id="skills">
-      <PageName identifyName="👩‍💻 Skills" />
-      <h1>Technologies and skills</h1>
-      <p>Techs I use on a daily basis</p>
+      <PageName identifyName={t("skills")} />
+      <h1>{t("skillsTitle")}</h1>
+      <p>{t("dailyTechs")}</p>
       <div>
         <img src={html} alt="html-icon" />
         <img src={css} alt="css-icon" />
@@ -25,7 +28,7 @@ function SkillsPage() {
         <img src={git} alt="git-icon" />
       </div>
 
-      <p>Other techs I've done projects with</p>
+      <p>{t("otherTechs")}</p>
       <div>
         <img src={next} alt="next-icon" />
         <img src={vue} alt="vue-icon" />

@@ -1,7 +1,10 @@
 import "./WhatsAppButton.css"
 import whatsapp from "../../assets/whatsapp.svg";
+import { useTranslation } from "react-i18next";
 
 function WhatsAppButton() {
+    const { t } = useTranslation();
+  
   const openWhatsAppPage = () => {
     const number = "+351911549286";
     window.open(`https://wa.me/${number}`, "_blank");
@@ -10,7 +13,7 @@ function WhatsAppButton() {
     <div id="ContactPage">
       <button onClick={openWhatsAppPage}>
         <img src={whatsapp} alt="whatsapp-icon" />
-        <p>Let's chat on WhatsApp</p>
+        <p>{t("aboutButton")}</p>
       </button>
     </div>
   );

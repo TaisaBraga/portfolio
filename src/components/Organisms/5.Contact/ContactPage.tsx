@@ -4,8 +4,10 @@ import WhatsAppButton from "../../Atoms/WhatsAppButton";
 import email from "../../../assets/email.svg";
 import copy from "../../../assets/copy.svg";
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 function ContactPage() {
+  const {t} = useTranslation()
   const [isCopied, setIsCopied] = useState<boolean>(false);
   const copyEmail = () => {
     const texto = "taisa.bragabento@gmail.com";
@@ -21,8 +23,8 @@ function ContactPage() {
   };
   return (
     <div id="ContactPage">
-      <PageName identifyName="☎️ Contact" />
-      <h1>Let's talk!</h1>
+      <PageName identifyName={t("contact")} />
+      <h1>{t("contactTitle")}</h1>
       <div className="contact-info">
         <WhatsAppButton />
         <div className="contact-email">
@@ -36,7 +38,7 @@ function ContactPage() {
           />
         </div>
       </div>
-        {isCopied ? <p style={{fontSize: "12px"}}>✅ Text copied to clipboard!</p> : null}
+        {isCopied ? <p style={{fontSize: "12px"}}>{t("copySucess")}</p> : null}
     </div>
   );
 }
