@@ -1,13 +1,13 @@
-import './App.css'
-import { PrincipalPage } from './components/Page/principalPage'
+import { Box } from "@mui/material";
+import "./App.css";
+import { PrincipalPage } from "./components/Page/principalPage";
 
 function App() {
-
   return (
-    <>
+    <Box>
       <PrincipalPage />
-    </>
-  )
+    </Box>
+  );
 }
 
-export default App
+export default App;

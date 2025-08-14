@@ -1,0 +1,70 @@
+@media  (max-width: 880px) {
+    .container-nav{
+        background-color: #D1D8BE;
+        padding: 0.3em;
+        
+    }
+}
+
+@media (min-width: 881px) {
+    .container-nav{
+        background-color: #D1D8BE;
+        border-radius: 13px;
+        margin-bottom: 1.2em;
+        align-items: center;
+        justify-content: center;
+        justify-self: anchor-center;
+        display: flex;
+        padding: 0.6em;
+        position: fixed;
+        z-index: 1;
+        width: 80%;
+    }
+}
+
+.links {
+    position: relative;          /* âncora para o absolute de .lang */
+    display: flex;
+    justify-content: center;     /* centraliza os links de fato */
+    align-items: center;
+    gap: 1.2em;
+    width: 100%;                 /* centro relativo à barra inteira */
+}
+
+@media (max-width: 880px) {
+  .lang {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    
+  }
+}
+
+@media (min-width: 881px) {
+  .lang {
+    position: absolute;
+    right: 0.8em;                /* ajuste fino */
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 1em;
+    margin: 0;                   /* garanta que não há margin-left:auto aqui */
+  }
+}
+
+.enLang, .ptLang{
+    background: none;
+    border: none;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em
+}
+
+.enLang>img, .ptLang>img{
+    border-radius: 100%;
+    height: 1.3em;
+    width: 2em;
+}
+

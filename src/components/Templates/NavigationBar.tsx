@@ -1,9 +1,9 @@
-import NavigationLinks from "../Molecules/Navigation/NavigationLinks";
+import NavigationBarLinks from "../Molecules/Navigation/NavigationBarLinks";
 
 function NavigationBar() {
   return (
     <div>
-      <NavigationLinks />
+      <NavigationBarLinks />
     </div>
   );
 }

@@ -1,12 +1,21 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body{
+@media (max-width: 880px) {
+  body{
+    background-color: #EEEFE0;
+  }
+}
+
+@media (min-width: 881px) {
+  body{
     background-color: #EEEFE0;
     padding: 1.5em;
+  }
 }
+
 
 html {
   scroll-behavior: smooth;
