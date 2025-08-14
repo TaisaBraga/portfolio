@@ -1,4 +1,4 @@
-import { Divider } from "@mui/material";
+import { Box, Divider } from "@mui/material";
 import NavigationBar from "../Templates/NavigationBar";
 import Presentation from "../Templates/Presentation";
 import Projects from "../Templates/Projects";
@@ -11,7 +11,7 @@ export const PrincipalPage = () => {
   return (
     <div>
       <NavigationBar />
-      <div style={{ padding: "8em 3em 0 3em" }}>
+      <Box sx={{padding: {md: "8em 3em 0 3em", sm: "2em 1em 0 1em"}}}>
         <Presentation />
         <Divider />
         <Aboutme />
@@ -22,7 +22,7 @@ export const PrincipalPage = () => {
         <Divider />
         <Contact />
         <Divider />
-      </div>
+      </Box>
       <Footer />
     </div>
   );

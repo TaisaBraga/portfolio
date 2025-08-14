@@ -1,4 +1,4 @@
-#ContactPage>button{
+#ContactButton>button{
     cursor: pointer;
     display: flex;
     border: 1px solid #A3B18A;
@@ -8,11 +8,11 @@
     width: 13em;
 }
 
-#ContactPage>button>img{
+#ContactButton>button>img{
     height: 1.2em;
     width: 1.2em;
 }
 
-#ContactPage>button>p{
+#ContactButton>button>p{
     margin-left: 0.4em;
 }
