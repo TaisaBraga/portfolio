@@ -1,3 +1,17 @@
+@media (max-width: 700px) {
+    #skills>h1{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media (min-width: 701px) {
+    #skills>h1{
+        font-size: 2.5em;
+    }
+    
+}
+
 #skills{
     align-items: center;
     display: flex;
@@ -8,7 +22,6 @@
 
 #skills>h1{
     margin-bottom: 1em;
-    font-size: 2.5em;
 }
 
 #skills>p{

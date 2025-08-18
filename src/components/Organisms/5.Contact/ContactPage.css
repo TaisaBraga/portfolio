@@ -1,3 +1,29 @@
+@media (max-width: 700px) {
+    #ContactPage>h1{
+        font-size: 1.5em;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1em;
+        align-items: center;
+    }
+    
+}
+
+@media (min-width: 701px) {
+    #ContactPage>h1{
+        font-size: 2.5em;
+    }
+
+    .contact-info{
+        display: flex;
+        gap: 3em;
+    }
+    
+}
+
 #ContactPage{
     align-items: center;
     display: flex;
@@ -8,12 +34,6 @@
 
 #ContactPage>h1{
     margin-bottom: 1em;
-    font-size: 2.5em;
-}
-
-.contact-info{
-    display: flex;
-    gap: 3em;
 }
 
 .contact-email{
