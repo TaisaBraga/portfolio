@@ -11,9 +11,8 @@
   #presentationLinks {
     display: flex;
     flex-direction: column;
-    margin-top: 1em;
+    margin: 1em;
     align-items: flex-start;
-    margin-bottom: 2em;
   }
 
   .photoDraw {
