@@ -1,27 +1,87 @@
-#aboutmePage{
-    align-items: center;
-  display: flex;
+@media (max-width: 700px) {
+    #aboutmePage{
+        padding: 0px 48px;
+        zoom: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    #aboutmePage>img{
+        width: 25em;
+        height: 25em;
+    }
+
+    .aboutmeDescription>h1{
+        font-size: 30px;
+    }
+
+    .presentation-text{
+        font-size: 0.8em;
+    }
+}
+
+@media (min-width: 701px) and (max-width: 1199px) {
+    #aboutmePage{
+        padding: 0px 48px;
+        zoom: 100%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    #aboutmePage>img{
+        width: 30em;
+        height: 30em;
+    }
+    
+    .aboutmeDescription>h1{
+        font-size: 30px;
+    }
+
+    .presentation-text{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 1200px) {
+    #aboutmePage{
+        align-items: center;
+        display: flex;
+    }
+
+    #aboutmePage>img{
+        margin-right: 2em;
+        width: 28em;
+        height: 28em;
+    }
+
+    .aboutmeDescription>h1{
+        font-size: 40px;
+    }
+
 }
 
 #aboutmePage>img{
     border-radius: 100%;
-    padding: 5em;
-    margin-right: 2em;
-    width: 28em;
-    height: 28em;
+    padding: 3em;
     object-fit: cover; 
-
 }
-
 .aboutmeDescription{
     padding: 5em 5em 3em 0;
     text-align: justify;
     line-height: 1.6em;
     margin-left: 2em;
 }
-
 .aboutmeDescription>h1{
-    font-size: 40px;
     margin-top: 1em;
 }
 
