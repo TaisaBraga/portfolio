@@ -5,6 +5,7 @@ import todoList from "../../../assets/todoList.png";
 import findAddress from "../../../assets/findAddress.png";
 import weatherApp from "../../../assets/weatherApp.png";
 import rickAndMorty from "../../../assets/rickAndMorty.png";
+import theBlog from "../../../assets/theBlog.png";
 import "./ProjectsPage.css";
 import { useTranslation } from "react-i18next";
 
@@ -16,6 +17,15 @@ function ProjectsPage() {
       <PageName identifyName={t("projects")} />
       <h1>{t("pageTitle")}</h1>
       <div className="cardProjects">
+        <ProjectCard
+          cardLink={
+            "https://github.com/TaisaBraga/the-blog"
+          }
+          cardTitle={t("theblog")}
+          cardSubtitle={t("theblogDescription")}
+          cardTec={["Next", "Typescript"]}
+          cardImage={theBlog}
+        />
         <ProjectCard
           cardLink={
             "https://github.com/TaisaBraga/Random-Joke?tab=readme-ov-file"

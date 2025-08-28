@@ -24,6 +24,8 @@
   "weatherApp": "Aplicativo de clima",
   "weatherAppCardDescription": "Este projeto tem como objetivo exibir a previsão do tempo da cidade, inserida pelo usuário, e alterar o fundo de acordo com a previsão.",
   "rickAndMortyCardDescription": "Projeto criado para consumir uma API GraphQL usando React e Apollo Client",
+  "theblog": "O Blog",
+  "theblogDescription": "Este projeto é um blog criado com Next.js, permitindo explorar, pesquisar e compartilhar receitas de uma forma prática e moderna.",
   "skills": "👩‍💻 Skills",
   "skillsTitle": "Tecnologias e habilidades",
   "dailyTechs": "Tecnologias que uso diariamente",
