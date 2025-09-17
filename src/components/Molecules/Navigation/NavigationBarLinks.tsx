@@ -22,34 +22,34 @@ function NavigationBarLinks() {
 
   const menuItems = (
     <>
-        <NavigationMenuItem
-          name={t("navHome")}
-          linkAddress={() => scrollToSection("home")}
-        />
-        <NavigationMenuItem
-          name={t("navAboutme")}
-          linkAddress={() => scrollToSection("aboutme")}
-        />
-        <NavigationMenuItem
-          name={t("navProjects")}
-          linkAddress={() => scrollToSection("projects")}
-        />
-        <NavigationMenuItem
-          name={t("navSkills")}
-          linkAddress={() => scrollToSection("skills")}
-        />
-        <NavigationMenuItem
-          name={t("navContact")}
-          linkAddress={() => scrollToSection("contact")}
-        />
+      <NavigationMenuItem
+        name={t("navHome")}
+        linkAddress={() => scrollToSection("home")}
+      />
+      <NavigationMenuItem
+        name={t("navAboutme")}
+        linkAddress={() => scrollToSection("aboutme")}
+      />
+      <NavigationMenuItem
+        name={t("navProjects")}
+        linkAddress={() => scrollToSection("projects")}
+      />
+      <NavigationMenuItem
+        name={t("navSkills")}
+        linkAddress={() => scrollToSection("skills")}
+      />
+      <NavigationMenuItem
+        name={t("navContact")}
+        linkAddress={() => scrollToSection("contact")}
+      />
       <div className="lang">
         <button className="enLang" onClick={() => i18n.changeLanguage("EN")}>
           <img src={usFlag} alt="USA Flag" />
-          <p>EN</p>
+          EN
         </button>
         <button className="ptLang" onClick={() => i18n.changeLanguage("PT")}>
           <img src={brFlag} alt="BR Flag" />
-          <p>PT</p>
+          PT
         </button>
       </div>
     </>
@@ -63,7 +63,19 @@ function NavigationBarLinks() {
             <IconButton onClick={() => setOpen(true)}>
               <MenuIcon />
             </IconButton>
-            <Drawer anchor="left" open={open} onClose={() => setOpen(false)}>
+            <Drawer
+              anchor="left"
+              open={open}
+              onClose={() => setOpen(false)}
+              slotProps={{
+                paper: {
+                  sx: {
+                    backgroundColor: "#312e34",
+                    width: 250,
+                  },
+                },
+              }}
+            >
               <Box
                 sx={{
                   width: 250,

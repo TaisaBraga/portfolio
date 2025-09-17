@@ -9,19 +9,19 @@ import Footer from "../Templates/Footer";
 
 export const PrincipalPage = () => {
   return (
-    <div>
+    <div style={{padding: "1em"}}>
       <NavigationBar />
       <Box sx={{padding: {md: "8em 3em 0 3em", sm: "2em 1em 0 1em"}}}>
         <Presentation />
-        <Divider />
+        <Divider sx={{backgroundColor: "#6F6F6F"}}/>
         <Aboutme />
-        <Divider />
+        <Divider sx={{backgroundColor: "#6F6F6F"}} />
         <Projects />
-        <Divider />
+        <Divider sx={{backgroundColor: "#6F6F6F"}} />
         <Skills />
-        <Divider />
+        <Divider sx={{backgroundColor: "#6F6F6F"}} />
         <Contact />
-        <Divider />
+        <Divider sx={{backgroundColor: "#6F6F6F"}} />
       </Box>
       <Footer />
     </div>

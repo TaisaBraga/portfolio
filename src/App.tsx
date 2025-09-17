@@ -4,7 +4,7 @@ import { PrincipalPage } from "./components/Page/principalPage";
 
 function App() {
   return (
-    <Box>
+    <Box id="bodyPage">
       <PrincipalPage />
     </Box>
   );

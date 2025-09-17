@@ -1,21 +1,20 @@
 *{
   margin: 0;
   padding: 0;
+  color: #6F6F6F
 }
 
 @media (max-width: 880px) {
-  body{
-    background-color: #EEEFE0;
+  #bodyPage{
+    background-color: #0C0C0D;  
   }
 }
 
 @media (min-width: 881px) {
-  body{
-    background-color: #EEEFE0;
-    padding: 1.5em;
+  #bodyPage{
+    background-color: #0C0C0D;
   }
 }
-
 
 html {
   scroll-behavior: smooth;
