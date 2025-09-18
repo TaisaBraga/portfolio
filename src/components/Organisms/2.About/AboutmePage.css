@@ -75,6 +75,12 @@
     padding: 3em;
     object-fit: cover; 
 }
+
+#aboutmePage>img:hover, .iconButtons img:hover, #resumelink:hover {
+  transition: 0.8s ease-in-out;
+  scale: 1.05;
+}
+
 .aboutmeDescription{
     padding: 5em 5em 3em 0;
     text-align: justify;
@@ -106,7 +112,8 @@
 
 #resumelink {
     margin-right: auto;
-  background-color: #6e736648;
+  background-color: #dcd9d9;
+  color: black !important;
   border-radius: 15px;
   width: 9em;  
   max-height: max-content;

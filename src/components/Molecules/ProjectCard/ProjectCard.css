@@ -12,6 +12,7 @@
 #container-card>p{
     font-size: 13.5px;
     margin: 5px 0;
+
 }
 
 .cardmap{
@@ -28,6 +29,7 @@
     padding: 0.3em;
     margin: 1em 0;
     max-width: 6.5em;
+    color: black !important;
 }
 
 #container-card>img{

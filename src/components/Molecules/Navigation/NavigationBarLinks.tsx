@@ -18,6 +18,7 @@ function NavigationBarLinks() {
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
     }
+    setOpen(false)
   };
 
   const menuItems = (
