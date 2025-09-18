@@ -10,7 +10,7 @@ export const PrincipalPage = () => {
   return (
     <div style={{padding: "1em"}}>
       <NavigationBar />
-      <Box sx={{padding: {md: "8em 3em 0 3em", sm: "2em 1em 0 1em"}}}>
+      <Box sx={{padding: {md: "6em 3em 0 3em", sm: "2em 1em 0 1em"}}}>
         {/* <Presentation />
         <Divider sx={{backgroundColor: "#6F6F6F"}}/> */}
         <Aboutme />

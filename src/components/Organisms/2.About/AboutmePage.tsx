@@ -11,7 +11,6 @@ function AboutmePage() {
   return (
     <div id="aboutmePage">
       <div className="aboutmeDescription">
-        {/* <PageName identifyName={t("aboutMe")} /> */}
         <h1>{t("name")}</h1>
         <div className="presentation-text">
           <p>{t("description")}</p>

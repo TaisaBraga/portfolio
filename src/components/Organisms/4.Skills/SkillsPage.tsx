@@ -1,5 +1,4 @@
 import "./SkillsPage.css";
-import PageName from "../../Atoms/PageName";
 import html from "../../../assets/html.svg";
 import css from "../../../assets/css.svg";
 import react from "../../../assets/react.svg";
@@ -16,7 +15,6 @@ function SkillsPage() {
 
   return (
     <div id="skills">
-      <PageName identifyName={t("skills")} />
       <h1>{t("skillsTitle")}</h1>
       <p>{t("dailyTechs")}</p>
       <div>

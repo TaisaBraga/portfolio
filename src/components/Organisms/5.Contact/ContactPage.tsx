@@ -1,5 +1,4 @@
 import "./ContactPage.css";
-import PageName from "../../Atoms/PageName";
 import WhatsAppButton from "../../Atoms/WhatsAppButton";
 import email from "../../../assets/email.svg";
 import copy from "../../../assets/copy.svg";
@@ -23,7 +22,6 @@ function ContactPage() {
   };
   return (
     <div id="ContactPage">
-      <PageName identifyName={t("contact")} />
       <h1>{t("contactTitle")}</h1>
       <div className="contact-info">
         <WhatsAppButton />

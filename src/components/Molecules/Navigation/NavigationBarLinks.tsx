@@ -24,10 +24,6 @@ function NavigationBarLinks() {
     <>
       <NavigationMenuItem
         name={t("navHome")}
-        linkAddress={() => scrollToSection("home")}
-      />
-      <NavigationMenuItem
-        name={t("navAboutme")}
         linkAddress={() => scrollToSection("aboutme")}
       />
       <NavigationMenuItem

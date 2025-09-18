@@ -1,4 +1,3 @@
-import PageName from "../../Atoms/PageName";
 import ProjectCard from "../../Molecules/ProjectCard/ProjectCard";
 import radonJoke from "../../../assets/RandonJoke.png";
 import todoList from "../../../assets/todoList.png";
@@ -14,7 +13,6 @@ function ProjectsPage() {
 
   return (
     <div id="Projects">
-      <PageName identifyName={t("projects")} />
       <h1>{t("pageTitle")}</h1>
       <div className="cardProjects">
         <ProjectCard
