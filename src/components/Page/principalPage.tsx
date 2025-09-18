@@ -1,6 +1,5 @@
 import { Box, Divider } from "@mui/material";
 import NavigationBar from "../Templates/NavigationBar";
-import Presentation from "../Templates/Presentation";
 import Projects from "../Templates/Projects";
 import Aboutme from "../Templates/Aboutme";
 import Skills from "../Templates/Skills";
@@ -12,8 +11,8 @@ export const PrincipalPage = () => {
     <div style={{padding: "1em"}}>
       <NavigationBar />
       <Box sx={{padding: {md: "8em 3em 0 3em", sm: "2em 1em 0 1em"}}}>
-        <Presentation />
-        <Divider sx={{backgroundColor: "#6F6F6F"}}/>
+        {/* <Presentation />
+        <Divider sx={{backgroundColor: "#6F6F6F"}}/> */}
         <Aboutme />
         <Divider sx={{backgroundColor: "#6F6F6F"}} />
         <Projects />

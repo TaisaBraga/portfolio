@@ -101,39 +101,7 @@
   margin-bottom: 0.2em;
 }
 
-.iconButtons {
-  align-items: center;
-  display: flex;
-  cursor: pointer;
-}
-
-.iconButtons img {
-  width: 3em;
-  height: 3em;
-  object-fit: contain;
-}
-
-.iconButtons img[alt="linkedIn-icon"] {
-  transform: scale(0.9);
-}
-
 .photoDraw:hover {
   transition: 0.8s ease-in-out;
   scale: 1.05;
-}
-
-#resumelink {
-  display: flex;
-  margin-bottom: 0.5em;
-}
-
-#resumelink > a {
-  color: inherit;
-  text-decoration: none;
-}
-
-#resumelink:hover {
-  background-color: #6e736648;
-  border-radius: 5px;
-  padding: 0.3em;
 }
