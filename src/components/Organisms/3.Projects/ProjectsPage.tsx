@@ -1,6 +1,7 @@
 import ProjectCard from "../../Molecules/ProjectCard/ProjectCard";
 import radonJoke from "../../../assets/RandonJoke.png";
 import todoList from "../../../assets/todoList.png";
+import capputeeno from "../../../assets/capputeeno.png";
 import findAddress from "../../../assets/findAddress.png";
 import weatherApp from "../../../assets/weatherApp.png";
 import rickAndMorty from "../../../assets/rickAndMorty.png";
@@ -49,7 +50,7 @@ function ProjectsPage() {
           cardTitle="Capputeeno"
           cardSubtitle={t("capputeenoCardDescription")}
           cardTec={["Next", "React", "TypeScript"]}
-          cardImage={todoList}
+          cardImage={capputeeno}
         />
         <ProjectCard
           cardLink={
