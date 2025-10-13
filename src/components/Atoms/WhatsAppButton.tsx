@@ -13,7 +13,7 @@ function WhatsAppButton() {
     <div id="ContactButton">
       <button onClick={openLinkedInPage}>
         <img src={messages} alt="messages-icon" />
-        <p>{t("letsChat")}</p>
+        <p style={{color: 'black', fontSize: '0.9em'}}>{t("letsChat")}</p>
       </button>
     </div>
   );

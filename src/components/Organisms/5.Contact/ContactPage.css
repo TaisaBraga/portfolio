@@ -29,7 +29,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 1em 0.5em;
+    padding: 1.3em 0.5em;
+    position: relative; 
 }
 
 #ContactPage>h1{
@@ -39,10 +40,15 @@
 .contact-email{
     align-items: center;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
+    
 }
 
 .contact-email>p{
     font-size: 16px;
     margin-right: 0.5em;
+}
+
+.contact-email>img{
+    margin-right: 0.3em;
 }

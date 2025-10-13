@@ -14,13 +14,13 @@ export const PrincipalPage = () => {
         {/* <Presentation />
         <Divider sx={{backgroundColor: "#6F6F6F"}}/> */}
         <Aboutme />
-        <Divider sx={{backgroundColor: "#6F6F6F"}} />
+        <Divider sx={{backgroundColor: "#6f6f6f30"}} />
         <Projects />
-        <Divider sx={{backgroundColor: "#6F6F6F"}} />
+        <Divider sx={{backgroundColor: "#6f6f6f30"}} />
         <Skills />
-        <Divider sx={{backgroundColor: "#6F6F6F"}} />
+        <Divider sx={{backgroundColor: "#6f6f6f30"}} />
         <Contact />
-        <Divider sx={{backgroundColor: "#6F6F6F"}} />
+        <Divider sx={{backgroundColor: "#6f6f6f30"}} />
       </Box>
       <Footer />
     </div>

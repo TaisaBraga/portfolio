@@ -19,7 +19,7 @@ function ProjectCard(IProjectCardProps: IProjectCardProps) {
       onClick={() => openGithubProjectPage(IProjectCardProps.cardLink)}
     >
       <h3>{IProjectCardProps.cardTitle}</h3>
-      <p>{IProjectCardProps.cardSubtitle}</p>
+      <p style={{minHeight: '5em', maxHeight: '5em'}}>{IProjectCardProps.cardSubtitle}</p>
 
       <div className="cardmap">
         {IProjectCardProps.cardTec.map((tec) => (

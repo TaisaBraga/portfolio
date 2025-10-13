@@ -6,7 +6,7 @@ import { useState } from "react";
 import { useTranslation } from "react-i18next";
 
 function ContactPage() {
-  const {t} = useTranslation()
+  const { t } = useTranslation();
   const [isCopied, setIsCopied] = useState<boolean>(false);
   const copyEmail = () => {
     const texto = "taisa.bragabento@gmail.com";
@@ -23,11 +23,14 @@ function ContactPage() {
   return (
     <div id="ContactPage">
       <h1>{t("contactTitle")}</h1>
+       {isCopied ? (
+          <p style={{ fontSize: "12px", position: "absolute", top: "100%"}}>{t("copySucess")}</p>
+        ) : null}
       <div className="contact-info">
         <WhatsAppButton />
         <div className="contact-email">
           <img src={email} alt="email-icon" />
-          <p>taisa.bragabento@gmail.com</p>
+          <p style={{ fontSize: "0.9em" }}>taisa.bragabento@gmail.com</p>
           <img
             src={copy}
             alt="copy-icon"
@@ -36,7 +39,6 @@ function ContactPage() {
           />
         </div>
       </div>
-        {isCopied ? <p style={{fontSize: "12px"}}>{t("copySucess")}</p> : null}
     </div>
   );
 }

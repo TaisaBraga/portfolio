@@ -1,11 +1,11 @@
 #ContactButton>button{
     cursor: pointer;
     display: flex;
-    border: 1px solid #A3B18A;
-    border-radius: 5px;
-    background-color: #6e736648;
-    padding: 0.4em;
-    width: 13em;
+    border: none;
+    border-radius: 8px;
+    background-color: #dcd9d9;
+    padding: 0.5em;
+    width: 12em;
 }
 
 #ContactButton>button>img{
@@ -16,3 +16,4 @@
 #ContactButton>button>p{
     margin-left: 0.4em;
 }
+
